@@ -1,0 +1,39 @@
+/*==========  Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.s-post-title .post-category {font-size: 13px;}
+.s-post-title h1 {font-size:50px; line-height:64px;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.lauren-menu .menu-icons{display:none;}
+.s-post-title h1 {font-size:40px; line-height:54px;}
+.right-sidebar {margin-top: 30px;}
+.error-page {padding: 60px 30px;}
+.error-page h2 {padding-top: 0;}
+.error-page-content {margin-bottom: 29px;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width:768px) {
+.lauren-menu .main-menu{display:none;}
+.lauren-menu .responsive-menu-bar{display:block;}
+.responsive-menu{display:block;}
+.s-post-title .post-category {font-size:12px;}
+.s-post-title h1 {font-size:30px; line-height:44px;}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+.responsive-menu{left:-100%;width:100%!important}
+.s-post-title .post-category {font-size: 11px;}
+.s-post-title h1 {font-size:20px; line-height:34px;}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+.s-post-title .post-category {font-size: 10px;}
+.s-post-title h1 {font-size:12px; line-height:20px;}
+}
